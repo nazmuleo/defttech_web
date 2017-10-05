@@ -1,0 +1,681 @@
+======== Global css ========*/
+
+* {
+	margin:0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #1e1e1e;
+	font-size: 14px;
+	font-weight: 400;
+	overflow-x: hidden;
+	position: relative;
+}
+ h1,h2,h3,h4,h5,h6,p,ul { 
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Poppins', sans-serif;
+	color: #1e1e1e;
+	font-weight: 600;
+}
+h1 {
+	font-size: 80px;
+	line-height: 85px;
+	font-weight: 800;
+}
+h2 {
+	font-size: 59px;
+	line-height: 65px;
+	font-weight: 800;
+}
+h3 {
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 700;
+}
+h4 {
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 700;
+}
+h5 {
+	font-size: 16px;
+	line-height: 30px;
+}
+h6 {
+	font-size: 13px;
+}
+p {
+	font-weight: 400;
+	line-height: 28px;
+	font-size: 16px;
+	color: #868686;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+	font-weight: 500;
+	color: #fff;
+	-webkit-transition: all .3s ease-out;
+	   -moz-transition: all .3s ease-out;
+	    -ms-transition: all .3s ease-out;
+	     -o-transition: all .3s ease-out;
+	        transition: all .3s ease-out;
+}
+a:hover,a:active,a:visited,a:focus {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+}
+button {
+	border: none;
+	outline: none;
+	box-shadow: none;
+	display: block; 
+	padding: 0;
+}
+ul {
+	list-style-type: none;
+}
+
+.space-t-20 {
+	margin-top: 20px;
+}
+
+.space-b-40 {
+	margin-bottom: 40px;
+}
+
+.space-t-b-55 {
+	margin: 55px 0;
+}
+
+.space-t-60 {
+	margin-top: 60px;
+}
+
+.space-b-60 {
+	margin-bottom: 60px;
+}
+
+.space-t-70 {
+	margin-top: 70px;
+}
+
+.space-b-70 {
+	margin-bottom: 70px;
+}
+
+.space-t-80 {
+	margin-top: 80px;
+}
+
+.space-b-80 {
+	margin-bottom: 80px;
+}
+
+.space-t-90 {
+	margin-top: 90px;
+}
+
+.space-t-140 {
+	margin-top: 140px;
+}
+
+
+.space-t-150 {
+	margin-top: 150px;
+}
+
+
+.section-heading {
+	color: #1f1f1f;
+	text-transform: capitalize;
+	font-size: 115px;
+	font-weight: 600;
+}
+
+.section-heading-left {
+	font-size: 82px;
+}
+
+.caption-left {
+	margin-bottom: 10px;
+}
+
+.caption-left:before{
+	content: "";
+	width: 80px;
+	height: 4px;
+	background: #37dba9;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.caption-center {
+	margin-bottom: 22px;
+}
+
+.caption-center:after{
+	content: "";
+	width: 80px;
+	height: 4px;
+	background: #37dba9;
+	margin: 0 auto;
+	display: block;
+}
+
+.sub-heading {
+	color: #1f1f1f;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.theme-color {
+	color: #181d81;
+}
+
+.small-sub-heading {
+	font-size: 20px;
+}
+
+.title-sm, .title-sm2 {
+	font-size: 45px;
+	position: relative;
+}
+
+.title-sm:after {
+	content: url(../images/line.png);
+	position: absolute;
+	right: -155px;
+	z-index: 1000;
+}
+
+.title-sm2:before {
+	content: url(../images/line2.png);
+	left: -155px;
+	position: absolute;
+	z-index: 1000;
+}
+
+
+.btn-defult {
+	background:url(../images/btn-dotted.png) no-repeat right bottom;
+	font-size: 30px;
+	color: #1d1d1d!important;
+	font-weight: 600;
+	text-transform: none;
+	-webkit-border-radius: 0;
+	        border-radius: 0;	        
+}
+
+.btn-defult > span{
+	background: #fff;
+	display: block;
+	padding: 52px 60px;
+	margin: 0 10px 18px 0;        
+}
+
+.btn-defult > span:hover, .btn-defult > span:focus {
+	color: #fff;
+	background: #181d81;        
+}
+
+.btn-secondary {
+	background: #37dba9;
+	color: #201e21;
+	font-size: 15px;
+	padding: 14px 50px 10px 50px;
+	border: 1px solid #37dba9;
+	-webkit-border-radius: 50px;
+	        border-radius: 50px;
+}
+
+.btn-secondary:hover {
+	border-color:#353990; 
+	color: #fff;
+	background:#353990; 
+}
+
+.btn-border {
+	background: #fff;
+	border-color:#353990; 
+	color: #353990!important;
+}
+
+
+.btn-border:hover {
+	border-color:#37dba9; 
+	color: #201e21!important;
+	background: #37dba9;
+}
+
+/*======== Start Header CSS ========*/
+
+.main-header {
+	background-color: #181d81;
+	color: white;
+}
+
+.logo {
+	color: #37dba9!important;
+	font-size: 36px;
+}
+
+/*========= End Header CSS =========*/
+
+/*======== Start About Us CSS ========*/
+.about-us{
+	padding: 82px 0 165px 0;
+}
+
+.icons-box h4{
+	text-transform: capitalize;
+	color: #1f1f1f;
+	font-size: 22px;
+	font-weight: 500;
+	margin: 35px 0 20px 0;
+
+}
+/*========== End About Us CSS ==========*/
+
+/*========== Start Best Work CSS ==========*/
+.best-work {
+	background: #f2f3f5;
+	padding: 140px  0;
+}
+
+.filter-nav li a{
+	color: #b3b3b3;
+	text-transform: capitalize;
+}
+
+.filter-nav li a:hover, .filter-nav li a.active{
+	background: #181d81;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	color: #fff;
+}
+
+.work-details {
+	margin-top: 70px;
+}
+
+.content-flex {
+	display: table;
+	height: 395px;
+	width: 100%;
+}
+
+.content-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+/*========== End Best Work CSS ==========*/
+
+/*========== Start Our Services CSS ==========*/
+.our-services {
+	padding: 140px 0 115px 0;
+	background:#fff url(../images/bg/bg1.jpg) no-repeat left bottom; 
+/*	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;*/
+}
+
+.bg-green {
+	background: #37dba9;
+	
+}
+
+.services-icon-box {
+	height: 340px;
+	padding: 40px 25px;
+	color: #fff;
+}
+
+
+.services-icon-box i{
+	font-size: 50px;
+}
+
+.services-icon-box p{
+	position: absolute;
+	color: #fff;
+	bottom: 30px;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.bg-blue {
+	background: #181d81;
+	margin-top: 100px;
+
+}
+
+/*========== End Our Services CSS ==========*/
+
+
+/*============== Start Hire CSS =============*/
+.hire-project {
+	padding-top: 145px;
+}
+
+.btn-oc {
+	margin-left: 30px;
+}
+
+.phone-number {
+	font-size: 25px;
+	color: #858585;
+	font-weight: 600;
+	margin-top: 52px;
+}
+
+/*========== End Hire CSS ==========*/
+
+
+/*============== Start countdown CSS =============*/
+.countdown{
+	padding: 165px 0;
+	background:#fff url(../images/bg/bg2.jpg) no-repeat top center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.countdown-item {
+	color: #fff;
+}
+
+.countdown-item i{
+	font-size: 40px;
+}
+
+.countdown-item h3{
+	font-size: 40px;
+	color: #fff;
+	font-weight: 400;
+	margin: 30px 0 8px 0;
+}
+
+.countdown-item p{
+	color: #fff;
+}
+
+.border-right {
+	border-right: 1px solid #535585;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #535585;
+}
+
+
+/*============== End countdown CSS =============*/
+
+/*============== Start Our Team CSS =============*/
+.our-team {
+	padding: 145px 0;
+}
+
+.name {
+	color: #202020;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+.name small{
+	display: block;
+}
+
+/*============== End Our Team CSS =============*/
+
+
+/*============== Start Testimonials CSS =============*/
+.testimonials {
+	background: url(../images/bg/pattrent.jpg);
+	padding: 100px 0 120px 0;
+}
+
+.testimonial-item h4{
+	margin-bottom: 30px; 
+}
+
+.clients-name {
+	font-size: 18px;
+	margin-top: 35px;
+}
+
+/*============== End Testimonials CSS =============*/
+
+
+/*============== Start clients CSS =============*/
+
+.clients {
+	padding:140px 0;
+}
+
+/*============== End clients CSS =============*/
+
+
+/*============== Start Our Blog CSS =============*/
+
+.our-blog {
+	padding:130px 0;
+	background: #f2f3f5;
+}
+
+.post-title, .post-title2 {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 10px 0 15px 0;
+	position: relative;
+}
+
+.post-title:before {
+	background: #181d81;
+    content: "";
+    height: 1px;
+    left: -80px;
+    position: absolute;
+    top: 17px;
+    vertical-align: middle;
+    width: 70px;
+    z-index: 1000;
+}
+
+.blog-content2 {
+	margin-top: 70px;
+}
+
+.blog-content2 .post-title2:after{
+	background: #181d81;
+    content: "";
+    height: 1px;
+    right: -80px;
+    position: absolute;
+    top: 17px;
+    vertical-align: middle;
+    width: 70px;
+    z-index: 1000;
+}
+
+/*============== End Our Blog CSS =============*/
+
+/*============== Start Contact Us CSS =============*/
+
+.contact-us {
+	padding: 130px 0;
+}
+
+.contact-details {
+	   -moz-box-shadow: 0 0 20px #888;
+	-webkit-box-shadow: 0 0 20px #888;
+	        box-shadow: 0 0 20px #888;
+	background: #181d81;
+	-webkit-border-radius: 10px;	
+	        border-radius: 10px;
+	        padding: 50px;	
+}
+
+.con-title {
+	font-size: 24px;
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+
+.con-title:after {
+	content: "";
+	width: 65px;
+	height: 3px;
+	display: block;
+	background: #35dba9;
+	margin-top: 5px;
+}
+
+.con-info li {
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 60px;
+}
+
+.con-info li span{
+	display: block;
+	color: #c3c4c9;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.contact-form .form-control {
+	background: #30348f;
+	-webkit-border-radius: 0;
+	        border-radius: 0;
+	        color:#c3c4c9;
+	        min-height: 45px; 
+}
+
+.btn-submit {
+	border-color: #fff;
+	cursor: pointer;
+	letter-spacing: 1px;
+	font-weight: 600;
+	background: #181d81;
+	color: #fff!important;
+	text-transform: uppercase;
+	margin-top: 20px; 
+}
+
+.btn-submit:hover {
+	color: #fff!important;
+}
+
+
+/*============== End Contact Us CSS =============*/
+
+/*============== Start Footer CSS =============*/
+.footer {
+	background: #f2f3f5;
+	padding: 100px 0;
+}
+.footer-nav li a{
+	color: #a8a8a8;
+	font-size: 14px;
+}
+
+.copyright {
+	color: #a8a8a8;
+	font-size: 14px;
+}
+
+.copyright a{
+	color: #181d81;
+}
+/*============== End Footer CSS =============*/
+
+
+/*============== Start Inner Page CSS =============*/
+
+/*icon box lg*/
+
+.image-bg {
+    background-image: url("http://heli-4437.kxcdn.com/wp-content/uploads/2016/05/newhome_2.jpg?id=3009");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.icon-box-lg{
+	height: 100%;
+	min-height: 400px;
+	position: relative;
+}
+
+.icon-box-lg .hide-text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease 0s;
+}
+
+.icon-box-lg::before {
+    background: #222 none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.icon-box-lg:hover::before {
+    background: rgba(0, 0, 0, 0.85) none repeat scroll 0 0;
+}
+.icon-box-lg:hover .hide-text {
+    max-height: 200px;
+}
+.icon-box-lg:hover .lg-icon {
+    font-size: 70px;
+}
+
+
+.heli-icon-box2 {
+    height: 100%;
+    min-height: 400px;
+    position: relative;
+}
+.heli-icon-box2 .hide-text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease 0s;
+}
+.heli-icon-box2::before {
+    background: #222 none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.heli-icon-box2:hover::before {
+    background: rgba(0, 0, 0, 0.85) none repeat scroll 0 0;
+}
+.heli-icon-box2:hover .hide-text {
+    max-height: 200px;
+}
+.heli-icon-box2:hover .vc_icon_element-icon {
+    font-size: 70px;
+}
+
+/*============== End Inner Page CSS =============
